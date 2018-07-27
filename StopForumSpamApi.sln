@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopForumSpamApi.Tests", "S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6A4B5DC-E0D7-4CDB-B192-2E132CCE8758}"
 	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
 		README.md = README.md
 		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
 		StopForumSpamApi.nuspec = StopForumSpamApi.nuspec

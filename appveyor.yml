@@ -1,0 +1,12 @@
+image: Visual Studio 2017
+
+build:
+  project: StopForumSpamApi.sln
+
+test:
+  assemblies:
+    only:
+      - StopForumSpamApi.Tests.dll
+	  
+before_build:
+  nuget.exe restore StopForumSpamApi.sln
