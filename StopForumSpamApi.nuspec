@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>StopForumSpamApi</id>
+		<version>1.0.0</version>
+		<description>StopForumSpamApi is a .NET wrapper for Stop Forum Spam API.</description>
+		<authors>Lima Technology Services</authors>
+		<owners>Lima Technology Services</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<copyright>Copyright © Lima Technology Services</copyright>
+		<projectUrl>https://github.com/ffernandolima/stop-forum-spam-api</projectUrl>
+		<dependencies>
+			<dependency id="Newtonsoft.Json" version="11.0.2" />
+		</dependencies>
+		<tags>StopForumSpam API</tags>
+	</metadata>
+	<files>
+		<file src="README.md" target="" />
+		
+		<file src="StopForumSpamApi\bin\Release\StopForumSpamApi.dll" target="lib\net45\StopForumSpamApi.dll" />
+		<file src="StopForumSpamApi\bin\Release\StopForumSpamApi.pdb" target="lib\net45\StopForumSpamApi.pdb" />
+		<file src="StopForumSpamApi\bin\Release\StopForumSpamApi.xml" target="lib\net45\StopForumSpamApi.xml" />
+	</files>
+</package>

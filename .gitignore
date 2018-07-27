@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/packages
+/StopForumSpamApi/bin/Release
+/StopForumSpamApi/obj
+/StopForumSpamApi.Tests/bin/Release
+/StopForumSpamApi.Tests/obj
+/StopForumSpamApi.Tests/bin/Debug
+/StopForumSpamApi/bin/Debug

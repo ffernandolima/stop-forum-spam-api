@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopForumSpamApi", "StopForumSpamApi\StopForumSpamApi.csproj", "{60F35BF1-5E9D-4EE8-B1FE-39B121B6F06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopForumSpamApi.Tests", "StopForumSpamApi.Tests\StopForumSpamApi.Tests.csproj", "{39D131C1-3684-4862-860B-F985B617D609}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6A4B5DC-E0D7-4CDB-B192-2E132CCE8758}"
+	ProjectSection(SolutionItems) = preProject
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+		StopForumSpamApi.nuspec = StopForumSpamApi.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60F35BF1-5E9D-4EE8-B1FE-39B121B6F06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F35BF1-5E9D-4EE8-B1FE-39B121B6F06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F35BF1-5E9D-4EE8-B1FE-39B121B6F06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F35BF1-5E9D-4EE8-B1FE-39B121B6F06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D131C1-3684-4862-860B-F985B617D609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D131C1-3684-4862-860B-F985B617D609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D131C1-3684-4862-860B-F985B617D609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D131C1-3684-4862-860B-F985B617D609}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C36E0EF1-E10C-46F1-BC26-BE4721F0C838}
+	EndGlobalSection
+EndGlobal
