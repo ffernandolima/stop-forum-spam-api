@@ -8,6 +8,6 @@ StopForumSpamApi is a .NET wrapper for Stop Forum Spam API.
 
 # Status
 
-[![NuGet Version](https://img.shields.io/nuget/v/StopForumSpamAp.svg)](https://www.nuget.org/packages/StopForumSpamAp/ "NuGet Version")
-[![NuGet Downloads](https://img.shields.io/nuget/dt/StopForumSpamAp.svg)](https://www.nuget.org/packages/StopForumSpamAp/ "NuGet Downloads")
+[![NuGet Version](https://img.shields.io/nuget/v/StopForumSpamApi.svg)](https://www.nuget.org/packages/StopForumSpamApi/ "NuGet Version")
+[![NuGet Downloads](https://img.shields.io/nuget/dt/StopForumSpamApi.svg)](https://www.nuget.org/packages/StopForumSpamApi/ "NuGet Downloads")
 [![Build status](https://ci.appveyor.com/api/projects/status/mp91vkn674mwdfhk?svg=true)](https://ci.appveyor.com/project/ffernandolima/stop-forum-spam-api)
