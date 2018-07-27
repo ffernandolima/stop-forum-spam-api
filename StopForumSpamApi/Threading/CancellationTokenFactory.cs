@@ -2,7 +2,7 @@
 
 namespace StopForumSpamApi.Threading
 {
-	internal static class CancellationTokenFactory
+	public static class CancellationTokenFactory
 	{
 		public static CancellationToken Token()
 		{
