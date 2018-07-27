@@ -6,7 +6,7 @@ build:
 test:
   assemblies:
     only:
-      - StopForumSpamApi.Tests.dll
+        StopForumSpamApi.Tests.dll
 	  
 before_build:
   nuget.exe restore StopForumSpamApi.sln
