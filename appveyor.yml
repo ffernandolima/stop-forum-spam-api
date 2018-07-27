@@ -6,7 +6,7 @@ before_build:
 - cmd: nuget.exe restore StopForumSpamApi.sln
 build:
   project: StopForumSpamApi.sln
-  verbosity: detailed
+  verbosity: minimal
 test:
   assemblies:
     only:
