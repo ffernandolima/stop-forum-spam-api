@@ -55,6 +55,7 @@
     <Compile Include="Clients\StopForumSpamApiClient.cs" />
     <Compile Include="Common\Constants.cs" />
     <Compile Include="Configurations\SecurityProtocolConfiguration.cs" />
+    <Compile Include="Extensions\AssemblyExtensions.cs" />
     <Compile Include="Extensions\HttpWebRequestExtensions.cs" />
     <Compile Include="Extensions\ObjectExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />

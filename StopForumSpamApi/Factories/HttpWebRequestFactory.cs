@@ -1,4 +1,5 @@
 ﻿using StopForumSpamApi.Common;
+using StopForumSpamApi.Extensions;
 using StopForumSpamApi.Http;
 using System;
 using System.Net;
@@ -22,7 +23,7 @@ namespace StopForumSpamApi.Factories
 
 			httpWebRequest.Method = httpMethod.ToString();
 			httpWebRequest.Timeout = (int)timeout.TotalMilliseconds;
-			httpWebRequest.UserAgent = Constants.ApplicationName;
+			httpWebRequest.UserAgent = $"{Constants.ApplicationName} - Version: {AssemblyExtensions.GetStringVersion()}";
 
 			if (!string.IsNullOrWhiteSpace(contentType))
 			{

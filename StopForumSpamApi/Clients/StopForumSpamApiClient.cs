@@ -112,7 +112,7 @@ namespace StopForumSpamApi.Clients
 					Query = parameters?.ToQuery()
 				};
 
-				var httpWebRequest = HttpWebRequestFactory.CreateHttpWebRequest(uriBuilder.Uri, HttpMethod.GET, Timeout, Constants.JsonMediaType);
+				var httpWebRequest = HttpWebRequestFactory.CreateHttpWebRequest(uriBuilder.Uri, HttpMethod.GET, this.Timeout, Constants.JsonMediaType);
 
 				var json = httpWebRequest.ReadResponseAsString();
 
@@ -184,7 +184,7 @@ namespace StopForumSpamApi.Clients
 
 				var uri = new Uri(uriString, UriKind.Absolute);
 
-				var httpWebRequest = HttpWebRequestFactory.CreateHttpWebRequest(uri, HttpMethod.POST, Timeout, Constants.FormUrlEncodedMediaType);
+				var httpWebRequest = HttpWebRequestFactory.CreateHttpWebRequest(uri, HttpMethod.POST, this.Timeout, Constants.FormUrlEncodedMediaType);
 
 				httpWebRequest.PostData(parameters?.ToQuery());
 
